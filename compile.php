@@ -33,11 +33,11 @@ body {
 
 <?php
 
-$inhalte = ob_get_contents();
+$content = ob_get_contents();
 ob_end_clean();
 
 $file = 'style.css';
-file_put_contents($file, $inhalte);
+file_put_contents($file, $content);
 
 ?>
 
