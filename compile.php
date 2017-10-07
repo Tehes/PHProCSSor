@@ -43,4 +43,4 @@ file_put_contents($file, $content);
 
 </style>
 
-<?php echo "static CSS file is ready!"; ?>
+<?php echo "static CSS file is ready"; ?>
